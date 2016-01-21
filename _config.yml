@@ -5,8 +5,6 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-analytics :
-    provider : custom
 comments :
     provider : duoshuo
     duoshuo :
