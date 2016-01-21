@@ -5,7 +5,7 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: Yaotech.info
-url: http://Yaotech.info
+title: Yaotec.info
+url: http://Yaotec.info
 feed: /atom.xml
-author_info: <a href="http://Yaotech.info/">Yaotc</a>
+author_info: <a href="http://Yaotec.info/">Yaotc</a>

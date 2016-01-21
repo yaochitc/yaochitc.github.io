@@ -9,4 +9,4 @@ category: blog
 
 
 
-[Yaotc]:    http://yaotech.info  "Yaotc"
+[Yaotc]:    http://yaotec.info  "Yaotc"
