@@ -5,6 +5,13 @@ pygments: true
 paginate: 8
 permalink: /:title
 
+analytics :
+    provider : custom
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : yaotec
+
 title: Yaotec.info
 url: http://Yaotec.info
 feed: /atom.xml
