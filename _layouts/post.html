@@ -18,6 +18,9 @@ layout: default
         <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
+
+        <!-- 多说评论框 start -->
+        <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ post.url }}"></div>
     </div>
 
     <div class="sidenav">
@@ -48,10 +51,7 @@ layout: default
     </div>
 </div>
 
-<!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ post.url }}"></div>
-<style type="text/css">
-</style>
+
 
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
