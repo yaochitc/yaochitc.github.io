@@ -20,7 +20,7 @@ category: blog
 
 `select count(songid) from playinfo where uid = 'yaotc' and timestamp between 2016-01-01T00:00 and 2016-01-02T00:00`
 
-按照关系数据库的做法，往往是根据where中指定的字段索引（`uid`），找到对应的数据行，然后筛选出满足所有条件的行（`timestamp`），然后对字段应用聚合函数（`count(songid)`）。
+按照关系数据库的做法，往往是根据where中指定的字段索引（`uid`），找到对应的数据行，然后根据其他字段（`timestamp`）筛选出满足所有条件的行，然后对字段应用聚合函数（`count(songid)`）。
 
 当数据量并不大的时候，一切看上去都非常美好。但是，当数据总量很大的时候，就会带来两个问题：
 <ul>
