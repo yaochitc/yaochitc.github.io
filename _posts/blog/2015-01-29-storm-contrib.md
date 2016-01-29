@@ -1,12 +1,12 @@
 ---
-layout: blog
+layout: post
 title: storm contribute流程翻译
 description: 先从contribute开始吧
 category: blog
 ---
 原文在[这里]，简单翻译一下，做个参考，相信用得着。
 
-##Getting started with contributing
+##开始贡献
 [Issue tracker]中的某些issue标上了"New bee"标签，如果你对向storm贡献代码感兴趣但是不知从何下手的话，从它们开始吧。由于这些issue仅仅涉及代码库中的某一部分，而且工作量相对较小，因此是入门学习代码库的好方法。
 
 ##学习代码库
