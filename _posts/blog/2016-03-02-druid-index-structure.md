@@ -15,6 +15,7 @@ category: blog
 接下来分别介绍3部分的具体索引格式：
 ## Timestamp column
 
+
 ## Dimension column
 
 ## Metric column
