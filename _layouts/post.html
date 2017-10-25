@@ -23,6 +23,10 @@ layout: default
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
 
+        <div class="ds-reward-stl">
+            <button id="dsRewardBtn" onclick="PaymentUtils.show();">赏</button>
+        </div>
+
         <!-- 多说评论框 start -->
         <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ post.url }}"></div>
     </div>
@@ -54,9 +58,7 @@ layout: default
         </ul>
     </div>
 
-    <div class="ds-reward-stl">
-        <button id="dsRewardBtn" onclick="PaymentUtils.show();">赏</button>
-    </div>
+
 </div>
 
 
