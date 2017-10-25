@@ -23,7 +23,7 @@
 
             + "     <div class=\"qrcode-img qrCode_2\" id=\"qrCode_2\">"
             + "      <div class=\"qrcode-border box-size\" style=\"border: 9.02px solid rgb(235, 95, 1\">"
-            + "       <img  class=\"qrcode-img qrCode_2\" id=\"qrCode_2\" src=\"/images/pay/alipay.png\\" />"
+            + "       <img  class=\"qrcode-img qrCode_2\" id=\"qrCode_2\" src=\"/images/pay/alipay.png\" />"
             + "      </div>"
             + "      <p class=\"qrcode-tip\">打赏</p>"
             + "     </div>"
