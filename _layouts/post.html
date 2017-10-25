@@ -13,9 +13,7 @@ layout: default
     }
 </style>
 
-<div class="ds-reward-stl">
-    <button id="dsRewardBtn" onclick="PaymentUtils.show();">赏</button>
-</div>
+
 <!-- 下面的js地址修改和上一步保存的js地址一致 -->
 <script type="text/javascript" src="/js/pay.js"></script>
 
@@ -54,6 +52,10 @@ layout: default
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
+    </div>
+
+    <div class="ds-reward-stl">
+        <button id="dsRewardBtn" onclick="PaymentUtils.show();">赏</button>
     </div>
 </div>
 
