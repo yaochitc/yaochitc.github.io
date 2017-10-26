@@ -10,7 +10,7 @@
             +"    <i class=\"ds-close-dialog\">&times;</i>"
             +"    <h5>选择打赏方式：</h5>"
             +"    <div class=\"ds-payment-way\">"
-            +"     <label for=\"alipay\"><input type=\"radio\" id=\"alipay\" class=\"reward-radio\" value=\"0\" name=\"reward-way\" />支付宝</label>"
+            +"     <label for=\"alipay\"><input type=\"radio\" id=\"alipay\" class=\"reward-radio\" value=\"0\"  checked=\"checked\" name=\"reward-way\" />支付宝</label>"
             + "    </div>"
             + "    <div class=\"ds-payment-img\">"
 
